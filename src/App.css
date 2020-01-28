@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,7 +37,42 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+.flexHeader {
+  display: flex;
+  margin: 0 auto;
+  ;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo p {
+  margin: 0px;
+}
+
+.search {
+  flex: 1;
+  text-align: right;
+}
+
+hr {
+  border-top: 1px solid red;
+
 }
